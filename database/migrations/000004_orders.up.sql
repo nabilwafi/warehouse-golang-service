@@ -1,0 +1,12 @@
+BEGIN;
+
+CREATE TABLE orders (
+  id UUID PRIMARY KEY,
+  type VARCHAR(100) NOT NULL,
+  product_id UUID NOT NULL,
+  quantity INT8 NOT NULL,
+  FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
+);
+
+
+COMMIT;

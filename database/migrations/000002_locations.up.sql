@@ -1,0 +1,9 @@
+BEGIN;
+
+CREATE TABLE locations (
+  id UUID PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  capacity INT8 NOT NULL
+);
+
+COMMIT;

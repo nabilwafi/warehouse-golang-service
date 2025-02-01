@@ -1,0 +1,12 @@
+BEGIN;
+
+CREATE TABLE products (
+  id UUID PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  sku VARCHAR(100) NOT NULL UNIQUE,
+  quantity INT8 NOT NULL,
+  location_id UUID NOT NULL,
+  FOREIGN KEY (location_id) REFERENCES locations(id) ON DELETE CASCADE
+);
+
+COMMIT;
