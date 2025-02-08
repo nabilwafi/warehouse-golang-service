@@ -12,7 +12,6 @@ integrasi dengan sistem lain.
 - **Manajemen Inventaris:** Memantau stok barang, penambahan, dan pengurangan
   inventaris secara real time.
 - **Pelacakan Pengiriman:** Melacak status pengiriman dan distribusi barang.
-- **API RESTful:** Menyediakan endpoint untuk integrasi dengan sistem eksternal.
 - **Otomatisasi Proses Gudang:** Mempermudah pengelolaan order, pembaruan
   status, dan proses lainnya.
 - **Logging & Monitoring:** Fitur untuk pencatatan aktivitas dan pemantauan
